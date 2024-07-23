@@ -1,0 +1,71 @@
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass-btn {
+    width: 100px;
+    height: 100px;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    margin: 0 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.glass-btn:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-5px);
+}
+
+.blue-btn {
+    box-shadow: 0px 20px 20px -17px rgba(0, 111, 255, 0.53);
+}
+
+.blue-btn:hover {
+    box-shadow: 0px 20px 35px -16px rgba(0, 111, 255, 0.65);
+}
+
+.red-btn {
+    box-shadow: 0px 20px 20px -17px rgba(255, 16, 39, 0.5);
+}
+
+.red-btn:hover {
+    box-shadow: 0px 20px 35px -16px rgba(255, 16, 39, 0.57);
+}
+
+.amber-btn {
+    box-shadow: 0px 20px 20px -17px rgba(255, 159, 16, 0.53);
+}
+
+.amber-btn:hover {
+    box-shadow: 0px 20px 35px -16px rgba(255, 159, 16, 0.6);
+}
+
+.green-btn {
+    box-shadow: 0px 20px 20px -17px rgba(50, 205, 50, 0.53);
+}
+
+.green-btn:hover {
+    box-shadow: 0px 20px 35px -16px rgba(50, 205, 50, 0.65);
+}
+
+.purple-btn {
+    box-shadow: 0px 20px 20px -17px rgba(138, 43, 226, 0.53);
+}
+
+.purple-btn:hover {
+    box-shadow: 0px 20px 35px -16px rgba(138, 43, 226, 0.65);
+}
+
+.grey-btn {
+    box-shadow: 0px 20px 20px -17px rgba(128, 128, 128, 0.53);
+}
+
+.grey-btn:hover {
+    box-shadow: 0px 20px 35px -16px rgba(128, 128, 128, 0.65);
+}
